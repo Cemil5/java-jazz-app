@@ -27,7 +27,7 @@
                 <div class="row col-12">
                     <div class="col-3 form-group">
                         <label>First Name
-                            <input type="text" class="form-control" placeholder="First name" th:field="*{firstName}">
+                            <input type="text" class="form-control" placeholder="First name" th:field="*{firstname}">
                         </label>
                         <div class="text-danger" th:if="${#fields.hasErrors('firstName')}">
                             <ul>
@@ -37,7 +37,7 @@
                     </div>
                     <div class="col-3 form-group">
                         <label>Last Name
-                            <input type="text" class="form-control" placeholder="Last name" th:field="*{lastName}">
+                            <input type="text" class="form-control" placeholder="Last name" th:field="*{lastname}">
                         </label>
                         <div class="text-danger" th:if="${#fields.hasErrors('lastName')}">
                             <ul>
@@ -60,7 +60,7 @@
                     <div class="col-3 form-group">
                         <label>Phone Number
                             <input type="text" class="form-control" placeholder="Phone Number"
-                                   th:field="*{address.phoneNumber}">
+                                   th:field="*{phoneNumber}">
                         </label>
                         <div class="text-danger" th:if="${#fields.hasErrors('address.phoneNumber')}">
                             <ul>
